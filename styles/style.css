@@ -28,6 +28,11 @@ body {
     max-width: 60%;
 }
 
+h1 {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
 .value-prop {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.75rem;
