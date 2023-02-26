@@ -119,3 +119,11 @@ h1 {
     color:gold;
     transform: scale(1.2);
 }
+
+.copyright {
+    font-size: 0.7rem;
+    color: aliceblue;
+    opacity: 0.7;
+    font-style: italic;
+    letter-spacing: 0.25rem;
+}
