@@ -1,0 +1,97 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #132323;
+    background-image: url('/images/foilage-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    padding: 1rem;
+    max-width: 80%;
+    min-height: 100vh;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.logo img {
+    max-width: 60%;
+}
+
+.value-prop {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.signup {
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding-top: 3rem;
+}
+
+.signup .form-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup h2 {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-size: 2rem;
+}
+
+.signup .indicates-required {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: aliceblue;
+}
+
+.signup input {
+    font-weight: 300;
+    color: #132323;
+    padding: 0 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    height: 70px;
+}
+
+.signup input.email {
+    font-size: 1.25rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.signup div.mce_inline_error {
+    position: absolute;
+    background-color: red !important;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.signup input.button {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    color: aliceblue;
+    background-color: #1A32E6;
+    text-transform: uppercase;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.socials li a span {
+    font-size: 3rem;
+    color: aliceblue;
+}
